@@ -1,0 +1,31 @@
+<html>
+
+  <head>
+      <style>
+
+            p {color:red;}
+
+            .teal{color:teal;}
+            .pink{color:pink;}
+            .indent{text-indent:20px;}
+            .bold{font-weight:bold;}
+            .hover:hover{color:blue;opacity:.5;}
+            .hover{display:inline-block;}
+
+      </style>
+
+
+
+  </head>
+
+  <body>
+    <p class="indent bold hover">Hey friends, Star Trek is Funny</p>
+    <p class="teal">James Tiberias Kirk</p>
+    <p id="test" class="pink">Spok has no emotions</p>
+      <script>
+      document.getElementById("test").onclick = function() {document.getElementById("test").innerHTML="stop clicking me";}
+
+      </script>
+  </body>
+
+</html>
